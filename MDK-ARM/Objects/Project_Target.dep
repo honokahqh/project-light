@@ -1,0 +1,287 @@
+Dependencies for Project 'Project', Target 'Target': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (..\Drivers\CMSIS\Device\XL32F0xx\Source\system_xl32f0xx.c)(0x6341354A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/system_xl32f0xx.o -MD)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+F (..\Drivers\CMSIS\Device\XL32F0xx\Source\arm\startup_xl32f003x6.s)(0x65F3AF7C)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538"-o ./objects/startup_xl32f003x6.o)
+F (..\Src\main.c)(0x66B1E346)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/main.o -MD)
+I (..\Inc\main.h)(0x66ACBED7)
+I (D:\software\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_system.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_exti.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_cortex.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_utils.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_pwr.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_dma.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_tim.h)(0x63450A04)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_adc.h)(0x634529DC)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_gpio.h)(0x66ADCF26)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_usart.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_iwdg.h)(0x634509DA)
+I (..\APP\bsp_driver.h)(0x66ADCE9F)
+I (..\APP\app.h)(0x66ADF0B1)
+I (D:\software\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\APP\segment_driver.h)(0x66ACEBBA)
+I (..\Drivers\BSP\XL32F003xx_Start_Kit\xl32f003xx_ll_Start_Kit.h)(0x63450966)
+I (..\ptos\pt.h)(0x6486BB68)
+I (..\ptos\lc.h)(0x6486BB68)
+I (..\ptos\lc-switch.h)(0x6486BB68)
+I (..\ptos\pt-timer.h)(0x6486BB68)
+F (..\Src\xl32f0xx_it.c)(0x66ADC119)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f0xx_it.o -MD)
+I (..\Inc\xl32f0xx_it.h)(0x633FD1D6)
+I (..\APP\app.h)(0x66ADF0B1)
+I (D:\software\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\APP\bsp_driver.h)(0x66ADCE9F)
+I (..\Drivers\BSP\XL32F003xx_Start_Kit\xl32f003xx_ll_Start_Kit.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_system.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_exti.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_cortex.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_utils.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_pwr.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_dma.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_gpio.h)(0x66ADCF26)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_usart.h)(0x63450962)
+I (..\Inc\main.h)(0x66ACBED7)
+I (D:\software\keil\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_tim.h)(0x63450A04)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_adc.h)(0x634529DC)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_iwdg.h)(0x634509DA)
+I (..\ptos\pt.h)(0x6486BB68)
+I (..\ptos\lc.h)(0x6486BB68)
+I (..\ptos\lc-switch.h)(0x6486BB68)
+I (..\ptos\pt-timer.h)(0x6486BB68)
+I (..\APP\segment_driver.h)(0x66ACEBBA)
+F (..\APP\bsp_driver.c)(0x66B07032)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/bsp_driver.o -MD)
+I (..\APP\bsp_driver.h)(0x66ADCE9F)
+I (..\APP\app.h)(0x66ADF0B1)
+I (D:\software\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\Inc\main.h)(0x66ACBED7)
+I (D:\software\keil\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_system.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_exti.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_cortex.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_utils.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_pwr.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_dma.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_tim.h)(0x63450A04)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_adc.h)(0x634529DC)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_gpio.h)(0x66ADCF26)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_usart.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_iwdg.h)(0x634509DA)
+I (..\Drivers\BSP\XL32F003xx_Start_Kit\xl32f003xx_ll_Start_Kit.h)(0x63450966)
+I (..\ptos\pt.h)(0x6486BB68)
+I (..\ptos\lc.h)(0x6486BB68)
+I (..\ptos\lc-switch.h)(0x6486BB68)
+I (..\ptos\pt-timer.h)(0x6486BB68)
+I (..\APP\segment_driver.h)(0x66ACEBBA)
+F (..\Drivers\BSP\XL32F003xx_Start_Kit\xl32f003xx_ll_Start_Kit.c)(0x63450966)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f003xx_ll_start_kit.o -MD)
+I (..\Drivers\BSP\XL32F003xx_Start_Kit\xl32f003xx_ll_Start_Kit.h)(0x63450966)
+I (D:\software\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_system.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_exti.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_cortex.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_utils.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_pwr.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_dma.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_gpio.h)(0x66ADCF26)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_usart.h)(0x63450962)
+F (..\Drivers\XL32F0xx_HAL_Driver\Src\xl32f0xx_ll_exti.c)(0x634509DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f0xx_ll_exti.o -MD)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_exti.h)(0x63450964)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+F (..\Drivers\XL32F0xx_HAL_Driver\Src\xl32f0xx_ll_gpio.c)(0x634509B2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f0xx_ll_gpio.o -MD)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_gpio.h)(0x66ADCF26)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+F (..\Drivers\XL32F0xx_HAL_Driver\Src\xl32f0xx_ll_rcc.c)(0x634509B0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f0xx_ll_rcc.o -MD)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+F (..\Drivers\XL32F0xx_HAL_Driver\Src\xl32f0xx_ll_tim.c)(0x63450A04)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f0xx_ll_tim.o -MD)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_tim.h)(0x63450A04)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+F (..\Drivers\XL32F0xx_HAL_Driver\Src\xl32f0xx_ll_usart.c)(0x634625C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f0xx_ll_usart.o -MD)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_usart.h)(0x63450962)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+F (..\Drivers\XL32F0xx_HAL_Driver\Src\xl32f0xx_ll_utils.c)(0x63450962)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/xl32f0xx_ll_utils.o -MD)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_utils.h)(0x63450962)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_system.h)(0x63450962)
+F (..\APP\app.c)(0x66B1E39B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/app.o -MD)
+I (..\APP\app.h)(0x66ADF0B1)
+I (D:\software\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\APP\bsp_driver.h)(0x66ADCE9F)
+I (..\Drivers\BSP\XL32F003xx_Start_Kit\xl32f003xx_ll_Start_Kit.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_system.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_exti.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_cortex.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_utils.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_pwr.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_dma.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_gpio.h)(0x66ADCF26)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_usart.h)(0x63450962)
+I (..\Inc\main.h)(0x66ACBED7)
+I (D:\software\keil\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_tim.h)(0x63450A04)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_adc.h)(0x634529DC)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_iwdg.h)(0x634509DA)
+I (..\ptos\pt.h)(0x6486BB68)
+I (..\ptos\lc.h)(0x6486BB68)
+I (..\ptos\lc-switch.h)(0x6486BB68)
+I (..\ptos\pt-timer.h)(0x6486BB68)
+I (..\APP\segment_driver.h)(0x66ACEBBA)
+F (..\APP\app.h)(0x66ADF0B1)()
+F (..\APP\segment_driver.c)(0x66B1E3EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Inc -I ../Drivers/CMSIS/Include -I ../Drivers/XL32F0xx_HAL_Driver -I ../Drivers/CMSIS/Device/XL32F0xx -I ../Drivers/BSP/XL32F003xx_Start_Kit -I ../Drivers/XL32F0xx_HAL_Driver/Inc -I ../Drivers/XL32F0xx_HAL_Driver/Src -I ../Drivers/CMSIS/Device/XL32F0xx/Include -I ../APP -I ../ptos -I ../modbus -I ../ymodem-ID:/software/keil/pack/ARMM0/ARM32F0xx_DFP/0.0.6/Device/Include-D__UVISION_VERSION="538" -DXL32F003x6 -DUSE_FULL_LL_DRIVER-o ./objects/segment_driver.o -MD)
+I (..\APP\segment_driver.h)(0x66ACEBBA)
+I (..\APP\app.h)(0x66ADF0B1)
+I (D:\software\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (D:\software\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\APP\bsp_driver.h)(0x66ADCE9F)
+I (..\Drivers\BSP\XL32F003xx_Start_Kit\xl32f003xx_ll_Start_Kit.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_rcc.h)(0x6572A5A0)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f0xx.h)(0x63450966)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\xl32f003x6.h)(0x63450966)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x630F3A32)
+I (..\Drivers\CMSIS\Device\XL32F0xx\Include\system_xl32f0xx.h)(0x63450966)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_bus.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_system.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_exti.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_cortex.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_utils.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_pwr.h)(0x63450962)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_dma.h)(0x63450964)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_gpio.h)(0x66ADCF26)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_usart.h)(0x63450962)
+I (..\Inc\main.h)(0x66ACBED7)
+I (D:\software\keil\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_tim.h)(0x63450A04)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_adc.h)(0x634529DC)
+I (..\Drivers\XL32F0xx_HAL_Driver\Inc\xl32f0xx_ll_iwdg.h)(0x634509DA)
+I (..\ptos\pt.h)(0x6486BB68)
+I (..\ptos\lc.h)(0x6486BB68)
+I (..\ptos\lc-switch.h)(0x6486BB68)
+I (..\ptos\pt-timer.h)(0x6486BB68)
+F (..\ptos\lc.h)(0x6486BB68)()
+F (..\ptos\lc-addrlabels.h)(0x6486BB68)()
+F (..\ptos\lc-switch.h)(0x6486BB68)()
+F (..\ptos\pt.h)(0x6486BB68)()
+F (..\ptos\pt-sem.h)(0x6486BB68)()
+F (..\ptos\pt-timer.h)(0x6486BB68)()

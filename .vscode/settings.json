@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "bsp_driver.h": "c",
+        "smg_driver.h": "c",
+        "segment_driver.h": "c",
+        "main.h": "c",
+        "app.h": "c",
+        "xl32f003xx_ll_start_kit.h": "c"
+    }
+}
